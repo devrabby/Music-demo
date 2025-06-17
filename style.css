@@ -81,13 +81,30 @@ body{
     font-size: 15px;
     color: #fff;  
 }
+/*The manin content ----*/
 .popular-song{
     background-color: rgb(37, 37, 37);
+    
+}  
+.first-chart{
+    background-color: red;
+    padding-top: 2px;
+}
+.first-chart .img-a {
+    margin-left: 20px;
+}
+.flex{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.charts{
+    padding: 50px 20px;
+    color: #000;
+    background-color: rgb(226, 226, 224);
 }
 
-.charts{
-    background-color: rgb(31, 31, 30);
-}
 .footer{
     background-color: rgb(49, 49, 49);
     color: #fff;
